@@ -228,6 +228,8 @@ section p {
 
 .mainDetox {
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -325,8 +327,6 @@ section p {
     
 }
 
-
-
 .soundsHealing {
     padding: 2%;
     font-size: 110%;
@@ -365,8 +365,6 @@ section p {
     color: rgb(0, 0, 0);
     padding: 10px;
 }
-
-
 /* FIN CSS HEALING TOOLS  */
 
 /* CSS JJUGOS   */
@@ -540,93 +538,91 @@ section p {
     
     } 
     
-.imgJugoVerdeGrid {
+    .imgJugoVerdeGrid {
     grid-area: img;
     padding: 5px;
     width: 90%;
     height: 80%;
     margin: 10px;
     border: rgb(0, 0, 0 )
-    
-}
-.gridParrafoDetox {
+    }
+   
+    .gridParrafoDetox {
     grid-area: texto;
     text-align: left;
-}
+     }
 
-#gridsDetox {
+     #gridsDetox {
     display: grid;
     grid-template-areas:
     "img texto";
     grid-template-columns: 3fr 3fr;
-}
+     }
 
-.alimentosHigado {
+     .alimentosHigado {
     display: flex;
     align-items: center;
     grid-area: img;
     width: 550px;
     margin: 15px;
     border: rgb(0, 0, 0)
-}
+     }
 
-.fastFood {
+     .fastFood {
     padding: 5px;
     width: 700px;
     margin: 10px;
     border: rgb(0, 0, 0)
-}
+     }
 
-.depuracionGrid {
+     .depuracionGrid {
     display: flex;
     align-items: center;
     grid-area: texto;
     font-size: 120%;
-} 
+     } 
 
-#gridSectionJugos {
+     #gridSectionJugos {
     display: grid;
     grid-template-areas: 
     "img texto";
     grid-template-columns: 500px 2fr;
     padding: 5px;
-}
+     }
 
-.imgJugoVerdeJugos {
+     .imgJugoVerdeJugos {
     display: flex;
     height: 100%;
     width: 100%;
     grid-area: img;
     align-items: center;
-}
+     }
 
-.subtituloJugosPrincipal {
+     .subtituloJugosPrincipal {
     grid-area: texto;
-}
+     }
 
-
-
-#asideGrid {
+     #asideGrid {
     display: grid;
     grid-template-areas: 
     "jugo1 jugo2 jugo3";
     grid-template-columns: 30% 30% 30%;
     padding: 10px;
-}
+     }
 
-.jugo1 {
-    grid-area: jugo1;
-}
+     .jugo1 {
+    grid-area: jugo1; 
+     }
 
-.jugo2 {
+     .jugo2 {
     grid-area: jugo2;
-}
+     }
 
-.jugo3 {
+     .jugo3 {
     grid-area: jugo3;
-}
+     }
 
-#gridHealing {
+     #gridHealing {
     display: grid;
     grid-template-areas: 
     "video txt";
@@ -651,12 +647,11 @@ section p {
     }
 
     
-.posicionesYoga {
+     .posicionesYoga {
     padding: 5px;
     width: 800px;
     margin: 10px;
     border: rgb(0, 0, 0)
-
 }
 }
 

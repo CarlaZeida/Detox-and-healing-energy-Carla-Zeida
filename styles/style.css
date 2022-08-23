@@ -576,8 +576,16 @@ section p {
     padding: 5px;
     width: 700px;
     margin: 10px;
-    border: rgb(0, 0, 0)
+    border: rgb(0, 0, 0);
+    transition: all 2s ease-in;
      }
+
+     .fastFood:hover {
+        padding: 5px;
+        width: 800px;
+        margin: 10px;
+        border: rgb(0, 0, 0)
+         }
 
      .depuracionGrid {
     display: flex;

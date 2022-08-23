@@ -369,6 +369,7 @@ section p {
 
 /* CSS JJUGOS   */
 /*diseno mobile */
+
 @media screen and  (max-width: 599px){
     #gridSectionJugos {
         display: grid;
@@ -459,17 +460,20 @@ section p {
 
 .imgJugosDetox {
     display: flex;
-    height: 400px;
-    width: 100%;
-    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     transition: all 2s ease-in;
 
 
 }
 
 .imgJugosDetox:hover{
-    width: 500px;
-    width: 700px;
+    width: 800px;
+    height: 700px;
 }
 
 /* FIN CSS JJUGOS   */

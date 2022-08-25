@@ -38,14 +38,14 @@ body {
 
 }
 
-#navId ul li a:hover {
-    color: rgb(193, 49, 128);
+#navId ul li {
+    color: rgb(242, 19, 142);
 
 
 }
 
-#navId ul li:hover {
-    color: rgb(238, 95, 174);
+#navId ul li a:hover {
+    color: rgb(236, 161, 202);
 
 
 }
@@ -54,8 +54,6 @@ body {
 #title {
     font-size: 30px;
 }
-
-
 
 
 
@@ -520,6 +518,21 @@ section p {
     align-items: center;
     justify-content: center;
  }
+
+/* css Contactp*/
+.contactoF {
+    margin: 5px;
+    padding: 2px;
+    font-weight: bolder;
+    
+}
+
+.formLabel {
+    color: rgb(184, 56, 127);
+    font-weight: bolder;
+
+}
+
 
 
 /* footer  */

@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
      background-color: rgb(255, 255, 255);
+=======
+    background-color: rgb(255, 255, 255);
+>>>>>>> version1.1
 
     font-family: Arial, Helvetica, sans-serif
 }
@@ -33,7 +37,7 @@ body {
 }
 
 #navId {
-    height: 20px;
+    height: 30px;
 
 }
 
@@ -51,7 +55,7 @@ body {
 
 
 #title {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -185,6 +189,20 @@ body {
 
 section p {
     font-size:  110%;
+
+}
+
+
+.healingIndex {
+    text-align: center;
+    padding: 1%;
+    font-size: 190%;
+    color: rgb(238, 95, 174);
+}
+
+.healingIndex a:hover {
+    color: rgb(242, 19, 142);
+
 
 }
 
@@ -456,6 +474,13 @@ section p {
 
 }
 
+.smoothieDetox {
+    text-align: center;
+    font-size: 200%;
+    color: rgb(238, 95, 174);
+
+}
+
 .subtituloJugos {
     font-size: 140%;
     padding: 10px;
@@ -472,9 +497,17 @@ section p {
 
 }
 .subtituloJugosP {
+    font-size: 20px;
     color: rgb(0, 0, 0);
-    font-size: 90%;
-    padding: 2%;
+    padding: 1%;
+}
+
+.subtituloJugosPP {
+    font-size: 20px;
+    color: rgb(229, 42, 145);
+    background-color: rgb(251, 218, 236);
+
+
 }
 
 .subtituloJugos ul li {
@@ -496,18 +529,19 @@ section p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 700px;
+    height: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     transition: all 2s ease-in;
+    margin-bottom: 50px;
 
 
 }
 
 .imgJugosDetox:hover{
-    width: 800px;
-    height: 700px;
+    width: 500px;
+    height: 400px;
 }
 
 /* FIN CSS JJUGOS   */
@@ -527,11 +561,16 @@ section p {
 }
 
 .formLabel {
-    color: rgb(184, 56, 127);
+    color: rgb(235, 68, 160);
     font-weight: bolder;
 
 }
 
+
+#submit {
+   color: rgb(184, 56, 127);
+   font-weight: bolder;
+}
 
 
 /* footer  */
@@ -545,7 +584,7 @@ section p {
     grid-area: footer;
     width: 100%;
     height: 60px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 232, 232);
     font-weight: bolder;
 }
 
@@ -652,11 +691,14 @@ section p {
      }
 
      .imgJugoVerdeJugos {
+    margin-bottom: 5px;    
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 95%;
     grid-area: img;
     align-items: center;
+    justify-content: center;
+    
      }
 
      .subtituloJugosPrincipal {

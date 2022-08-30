@@ -33,7 +33,7 @@ body {
 }
 
 #navId {
-    height: 20px;
+    height: 30px;
 
 }
 
@@ -51,7 +51,7 @@ body {
 
 
 #title {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -185,6 +185,20 @@ body {
 
 section p {
     font-size:  110%;
+
+}
+
+
+.healingIndex {
+    text-align: center;
+    padding: 1%;
+    font-size: 190%;
+    color: rgb(238, 95, 174);
+}
+
+.healingIndex a:hover {
+    color: rgb(242, 19, 142);
+
 
 }
 
@@ -453,6 +467,13 @@ section p {
     text-align: center;
     color: rgb(238, 95, 174);
     padding: 1%;
+
+}
+
+.smoothieDetox {
+    text-align: center;
+    font-size: 200%;
+    color: rgb(238, 95, 174);
 
 }
 

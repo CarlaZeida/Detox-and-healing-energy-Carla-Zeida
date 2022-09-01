@@ -1,0 +1,14 @@
+#navId {
+    ul {
+        li {
+            color: rgb(242, 19, 142);
+            a {
+                &:hover {
+                    color: rgb(236, 161, 202);
+                } 
+
+            }
+        }
+    }
+}
+

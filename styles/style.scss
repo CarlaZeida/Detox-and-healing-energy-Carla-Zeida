@@ -1,0 +1,763 @@
+@import "./partials/_nav", "./partials/_footer"; 
+
+body {
+    
+    background-color: rgb(255, 255, 255);    
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .h1Nav {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .fondo-title {
+        background-color: rgb(255, 255, 255);
+        color: rgb(238, 95, 174);
+        font-weight: bolder;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    #titleNav {
+        font-weight: bolder;
+        height: 40px;
+        width: 50%;
+        font-size: 10px;
+    }
+    
+    #navId {
+        height: 30px;
+    
+    }
+    
+    /* #navId ul li {
+        color: rgb(242, 19, 142);
+    
+    
+    } */
+/*     
+    #navId ul li a:hover {
+        color: rgb(236, 161, 202);
+    
+    
+    } */
+    
+    
+    #title {
+        font-size: 25px;
+    }
+    
+    
+    
+    /* .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(238, 95, 174);
+        background-image: radial-gradient(rgba(228, 167, 202, 0), #ffff);
+    
+    } 
+    
+    .header .titleWeb {
+        font-size: 130%;
+        -ffontamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    } */
+    
+    /* menu */ 
+    
+    
+    .header__nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        
+    }
+    
+    
+    .header__nav ul li a {
+        padding: 5px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .header__nav ul li a:hover {
+        color: rgb(194, 18, 109);
+    
+    }
+    
+    
+    /* index */
+    
+    #gridIndex {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "section"
+        "article"
+        "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 100px 200px 300px 100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    #gridArticleIndex {
+        grid-area: article;
+        gap: 10px;
+        margin: 160px;
+    }
+    /* diseno mobile */
+    @media screen and (max-width: 599px)
+        {#gridParrafoIndex {
+            display: grid;
+            grid-template-areas: 
+            "img" "texto";
+            grid-template-columns: 1fr;
+            grid-area: texto;
+            text-align: left;
+        }
+    
+        #gridParrafoIndex {
+            display: grid;
+            grid-template-areas: 
+            "img" "texto";
+            grid-template-columns: 1fr;
+        }
+    
+        .imgJugoVerdeGrid {
+            grid-area: img;
+            padding: 5px;
+            width: 90%;
+            height: 80%;
+            margin: 10px;
+            border: rgb(0, 0, 0 )
+            
+        }
+        .gridParrafoDetox {
+            grid-area: texto;
+            text-align: left;
+        }    
+    }
+    /* fin diseno mobile */
+    
+    
+    .tituloDetox {  
+        padding: 1%;
+        font-size: 190%;
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .detoxNature {
+        text-align: center;
+    
+    }
+    
+    .detoxNature .fonts {
+        font-size: 130%;
+        padding: 10px;
+        margin: 10px;
+        
+    
+    } 
+    
+    .detoxAyuno .fonts {
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .ayunoLink {
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    section p {
+        font-size:  110%;
+    
+    }
+    
+    
+    .healingIndex {
+        text-align: center;
+        padding: 1%;
+        font-size: 190%;
+        color: rgb(238, 95, 174);
+    }
+    
+    .healingIndex a:hover {
+        color: rgb(242, 19, 142);
+    
+    
+    }
+    
+    
+    .imgJugoVerde {
+        padding: 5px;
+        width: 800px;
+        margin: 10px;
+        border: rgb(0, 0, 0)
+    }
+    
+    .detoxAyuno {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .detoxAyuno p {
+        padding: 10px;
+        font-size: 100%;
+    }
+    
+    
+    /* formulario */
+    .contactoF {
+        color: rgb(238, 95, 174);
+        font-size: 190%;
+    }
+    
+    .formularioContacto {
+        border: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 2%;
+        color: rgb(238, 95, 174);
+        background: rgb(240, 218, 221);
+     }
+    
+     /* fin formulario */
+    
+    /* CSS DETOX  */
+    /*diseno mobile */
+    @media screen and (max-width: 599px){
+        #gridsDetox {
+            display: grid;
+            grid-template-areas:
+            "img" "texto";
+            grid-template-columns: 1fr;
+        }
+    
+        .alimentosHigado {
+            display: flex;
+            align-items: center;
+            grid-area: img;
+            height: 100%;
+            width: 100%;
+            border: rgb(0, 0, 0)
+        }
+        
+        
+        .depuracionGrid {
+            display: flex;
+            align-items: center;
+            grid-area: texto;
+            font-size: 120%;
+        } 
+    
+        .fastFood {
+            margin: 3px;
+            width: 300px;
+            height: 200px;
+            border: rgb(0, 0, 0)
+        }
+    }
+    /* fin diseno mobile */
+    
+    .mainDetox {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    
+    .detoxificacion {
+        padding: 1%;
+        font-size: 190%;
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .subtitlesDetox {
+            font-size: 180%;
+            padding: 10px;
+            color: rgb(238, 95, 174);    
+    
+    }
+    
+    .subtitlesAyuno {
+        font-size: 180%;
+        padding: 20px;
+        color: rgb(238, 95, 174);
+    }
+    
+    .subDepuracion {
+        font-size: 120%;
+    }
+    
+    .ayunoInter {
+        font-size: 120%;
+    }
+    
+    .ayunoInter ul li {
+        padding: 4px;
+        list-style: none;
+        font-size: 90%;
+    }
+    
+    .ayunoInterP {
+        font-size: 90%;
+        padding: 1%;
+    }
+    /* FIN CSS DETOX  */
+    
+    /* CSS HEALING TOOLS  */
+    
+    @media screen and (max-width: 599px){
+        #gridHealing { 
+            display: grid;
+            grid-template-areas: 
+            "video" "txt";
+            grid-template-columns: 1fr;
+            padding: 5px;
+            width: 100%;
+        }
+    
+        .videoHealing {
+            display: flex;
+            align-items: center;
+            grid-area: video;
+            border: rgb(0, 0, 0);
+            width: 10 0%;
+        }
+    
+        .meditation {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-area: txt;
+        }
+    
+        .posicionesYoga {
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            width: 100%;
+        }
+    }
+    
+    .mainHealing {
+        text-align: center;
+    }
+    
+    .healingTools {
+        padding: 1%;
+        font-size: 190%;
+        color: rgb(238, 95, 174);
+    }
+    
+    .subtitleHealing {
+        font-weight: bold;
+        font-size: 120%;
+        padding: 10px;
+        color: rgb(238, 95, 174);
+        
+    }
+    
+    .soundsHealing {
+        padding: 2%;
+        font-size: 110%;
+    }
+    
+    .subtitleHealing {
+        font-size: 140%;
+        padding: 10px;
+        color: rgb(238, 95, 174);    
+    }
+    
+    .subtitleHealing p {
+        padding: 2%;
+        font-size: 90%;
+        color: rgb(0, 0, 0);
+    
+    }
+    
+    .subtitleHealing ul li {
+        padding: 4px;
+        list-style: none;
+        color: rgb(0, 0, 0);
+        font-size: 90%;
+    }
+    
+    .yogaAshtanga {
+        font-size: 120%;
+        padding: 10px;
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .yogaAshtanga p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    /* FIN CSS HEALING TOOLS  */
+    
+    /* CSS JJUGOS   */
+    /*diseno mobile */
+    
+    @media screen and  (max-width: 599px){
+        #gridSectionJugos {
+            display: grid;
+            grid-template-areas: 
+            "img" "texto";
+            grid-template-columns: 1fr;
+            padding: 5px;
+        }
+    
+        .imgJugoVerdeJugos {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            grid-area: img;
+            align-items: center;
+        }
+        
+        .subtituloJugosPrincipal {
+            grid-area: texto;
+        }
+    
+        #asideGrid {
+            display: grid;
+            grid-template-areas: 
+            "jugo1" "jugo2" "jugo3";
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr 2fr 2fr;
+        }
+        
+          .jugo1 ul li {
+        grid-area: jugo1; 
+        }
+    
+         .jugo2 ul li {
+        grid-area: jugo2;
+         }
+    
+         .jugo3 ul li {
+        grid-area: jugo3;
+         }
+        
+    }
+    
+    /* fin diseno mobile */
+    
+    .mainJugos {
+        text-align: center;
+        color: rgb(238, 95, 174);
+        padding: 1%;
+    
+    }
+    
+    .smoothieDetox {
+        text-align: center;
+        font-size: 200%;
+        color: rgb(238, 95, 174);
+    
+    }
+    
+    .subtituloJugos {
+        font-size: 140%;
+        padding: 10px;
+    
+    }
+    
+    
+    .subtituloJugosPrincipal {
+        color: rgb(0, 0, 0);
+        font-size: 120%;
+        padding: 1%;
+        grid-area: texto;
+        justify-content: right;
+    
+    }
+    .subtituloJugosP {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        padding: 1%;
+    }
+    
+    .subtituloJugosPP {
+        font-size: 20px;
+        color: rgb(229, 42, 145);
+        background-color: rgb(251, 218, 236);
+    
+    
+    }
+    
+    .subtituloJugos ul li {
+        padding: 5px;
+        list-style: none;
+        font-size: 90%;
+        color: rgb(0, 0, 0);
+    }
+    
+    .jugoDetox {
+        display: grid;
+        padding: 5px;
+        width: 500px;
+        margin: 10px;
+        border: rgb(0, 0, 0)
+    }
+    
+    .imgJugosDetox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 2s ease-in;
+        margin-bottom: 50px;
+    
+    
+    }
+    
+    .imgJugosDetox:hover{
+        width: 500px;
+        height: 400px;
+    }
+    
+    /* FIN CSS JJUGOS   */
+    
+    .spotifyHealing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    
+    /* css Contactp*/
+    .contactoF {
+        margin: 5px;
+        padding: 2px;
+        font-weight: bolder;
+        
+    }
+    
+    .formLabel {
+        color: rgb(235, 68, 160);
+        font-weight: bolder;
+    
+    }
+    
+    
+    #submit {
+       color: rgb(184, 56, 127);
+       font-weight: bolder;
+    }
+    
+    
+    /* footer  */
+    // #footer {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     text-decoration: none;
+    //     align-items: center;
+    //     color: rgb(184, 56, 127);
+    //     grid-area: footer;
+    //     width: 100%;
+    //     height: 60px;
+    //     background-color: rgb(252, 232, 232);
+    //     font-weight: bolder;
+    // }
+    
+    // #footer a:hover {
+    //     color: rgb(194, 18, 109);
+    
+    // }
+    
+    /* fin footer  */
+    
+    /*diseno tableta */ 
+    @media screen and (min-width: 600px){
+        
+    }
+    
+    /* fin diseno tableta */ 
+    
+    /*diseno desktop */ 
+    @media screen and (min-width: 1200px){
+        #gridParrafoIndex {
+            display: grid;
+            grid-template-areas: 
+            "img texto";
+            grid-area: texto;
+            text-align: left;
+        }
+    
+        #gridParrafoIndex {
+            display: grid;
+            grid-template-areas: 
+            "img texto";
+            grid-area: texto;
+            text-align: left;
+        }
+      
+        .header__nav ul li {
+            display: flex;
+            justify-content: flex-end;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            color: rgb(238, 95, 174);
+            font-weight: bold;
+        
+        } 
+        
+        .imgJugoVerdeGrid {
+        grid-area: img;
+        padding: 5px;
+        width: 90%;
+        height: 80%;
+        margin: 10px;
+        border: rgb(0, 0, 0 )
+        }
+       
+        .gridParrafoDetox {
+        grid-area: texto;
+        text-align: left;
+         }
+    
+         #gridsDetox {
+        display: grid;
+        grid-template-areas:
+        "img texto";
+        grid-template-columns: 3fr 3fr;
+         }
+    
+         .alimentosHigado {
+        display: flex;
+        align-items: center;
+        grid-area: img;
+        width: 550px;
+        margin: 15px;
+        border: rgb(0, 0, 0)
+         }
+    
+         .fastFood {
+        padding: 5px;
+        width: 700px;
+        margin: 10px;
+        border: rgb(0, 0, 0);
+        transition: all 2s ease-in;
+         }
+    
+         .fastFood:hover {
+            padding: 5px;
+            width: 800px;
+            margin: 10px;
+            border: rgb(0, 0, 0)
+             }
+    
+         .depuracionGrid {
+        display: flex;
+        align-items: center;
+        grid-area: texto;
+        font-size: 120%;
+         } 
+    
+         #gridSectionJugos {
+        display: grid;
+        grid-template-areas: 
+        "img texto";
+        grid-template-columns: 500px 2fr;
+        padding: 5px;
+         }
+    
+         .imgJugoVerdeJugos {
+        margin-bottom: 5px;    
+        display: flex;
+        height: 80%;
+        width: 95%;
+        grid-area: img;
+        align-items: center;
+        justify-content: center;
+        
+         }
+    
+         .subtituloJugosPrincipal {
+        grid-area: texto;
+         }
+    
+         #asideGrid {
+        display: grid;
+        grid-template-areas: 
+        "jugo1 jugo2 jugo3";
+        grid-template-columns: 30% 30% 30%;
+        padding: 10px;
+         }
+    
+         .jugo1 {
+        grid-area: jugo1; 
+         }
+    
+         .jugo2 {
+        grid-area: jugo2;
+         }
+    
+         .jugo3 {
+        grid-area: jugo3;
+         }
+    
+         #gridHealing {
+        display: grid;
+        grid-template-areas: 
+        "video txt";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        }
+    
+        .videoHealing {
+            display: flex;
+            align-items: center;
+            grid-area: video;
+            border: rgb(0, 0, 0);
+            width: 95%;
+            padding: 2%;
+        }
+    
+        .meditation {
+            display: flex;
+            justify-content: flex-end;
+            grid-area: txt;
+            align-items: center;
+        }
+    
+        
+         .posicionesYoga {
+        padding: 5px;
+        width: 800px;
+        margin: 10px;
+        border: rgb(0, 0, 0)
+    }
+    }
+    
+    
+    /*fin diseno desktop */ 
+
+   
+    

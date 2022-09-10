@@ -1,0 +1,18 @@
+.videoHealing {
+    @include flex ($direcction, $justify, $align)
+    grid-area: video;
+    border: rgb(0, 0, 0);
+    width: 10 0%;
+}
+
+
+    
+.meditation {
+    grid-area: txt;
+}
+
+.posicionesYoga {
+    @include flex ($direcction, $justify)
+    height: 300px;
+    width: 100%;
+}

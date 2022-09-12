@@ -1,9 +1,6 @@
 #footer { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    @extend %displayFooter
         text-decoration: none;
-        align-items: center;
         grid-area: footer;
         width: 100%;
         height: 60px;

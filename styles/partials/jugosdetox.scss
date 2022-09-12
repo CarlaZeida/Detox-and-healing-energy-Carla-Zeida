@@ -1,0 +1,10 @@
+.imgJugosDetox {
+    @include flex ($justify, $align)
+    display: flex;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; 
+  }
+  

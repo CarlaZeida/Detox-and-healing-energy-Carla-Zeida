@@ -1,0 +1,15 @@
+.tituloDetox {        
+    @extend %displayIndex;
+    text-align: center;
+}
+
+.tituloDetox {
+    p {
+        display: flex;
+        @extend %displayIndex;
+        color: map-get($color: , footerColor );
+            font-size: 100%;
+            padding: 15px;
+            text-align: center;
+}
+}

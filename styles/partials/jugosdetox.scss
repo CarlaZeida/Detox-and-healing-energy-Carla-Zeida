@@ -1,5 +1,5 @@
 .imgJugosDetox {
-    @include flex ($justify, $align)
+    @include flex ($justify, $align);
     display: flex;
     height: 300px;
     width: 400px;
